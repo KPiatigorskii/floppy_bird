@@ -17,5 +17,6 @@ jobs:
 
     - name: Print colorful text with smile
       run: echo -e "\033[32mOperations were carried out successfully\033[0m" 
-
+    - name: Print smile
+      run: echo -e '\xf0\x9f\x98\x80\x0a\x00'
 #Konstantin Piatigorskii
