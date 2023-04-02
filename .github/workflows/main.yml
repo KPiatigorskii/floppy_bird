@@ -15,10 +15,7 @@ jobs:
     # - name: Install dependency
     #   run: npm install
 
-    - name: Set the environment variables
-      run: |
-        GREEN='\033[0;32m'
-        NC='\033[0m' # No Color
-        echo -e "${GREEN}I love Github Actions!${NC}"
+    - name: Print colorful text with smile
+      run: echo -e "\033[32mOperations were carried out successfully\033[0m" 
 
 #Konstantin Piatigorskii
