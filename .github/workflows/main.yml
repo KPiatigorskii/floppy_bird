@@ -12,8 +12,8 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
-    - name: Install dependency
-      run: npm install
+    # - name: Install dependency
+    #   run: npm install
 
     - name: Set the environment variables
       run: |
